@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 32640902aa1c7cf4fb90104170892b37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7205251588444910073
+    second: rick-morty-chars_0
+  - first:
+      213: -3723726810876324223
+    second: rick-morty-chars_1
+  - first:
+      213: -8422500204480292671
+    second: rick-morty-chars_2
+  - first:
+      213: 2526717947045922702
+    second: rick-morty-chars_3
+  - first:
+      213: 3261681134393295590
+    second: rick-morty-chars_4
+  - first:
+      213: 7726541656162968710
+    second: rick-morty-chars_5
+  - first:
+      213: -1002873074388055948
+    second: rick-morty-chars_6
+  - first:
+      213: -8663584617698174205
+    second: rick-morty-chars_7
+  - first:
+      213: 7840581040218307113
+    second: rick-morty-chars_8
+  - first:
+      213: 7385829339421587868
+    second: rick-morty-chars_9
+  - first:
+      213: -5745584460844831804
+    second: rick-morty-chars_10
+  - first:
+      213: 8312198182850421609
+    second: rick-morty-chars_11
+  - first:
+      213: 6284752029611775335
+    second: rick-morty-chars_12
+  - first:
+      213: 5150299927569557196
+    second: rick-morty-chars_13
+  - first:
+      213: -4451548919469552105
+    second: rick-morty-chars_14
+  - first:
+      213: -3797508546026876228
+    second: rick-morty-chars_15
+  - first:
+      213: -7178989903503304726
+    second: rick-morty-chars_16
+  - first:
+      213: -855667998824098882
+    second: rick-morty-chars_17
+  - first:
+      213: 1413312541374383994
+    second: rick-morty-chars_18
+  - first:
+      213: 8453867233055782780
+    second: rick-morty-chars_19
+  - first:
+      213: -5245693851564800574
+    second: rick-morty-chars_20
+  - first:
+      213: -8693297477337522223
+    second: rick-morty-chars_21
+  - first:
+      213: -4687216848141559240
+    second: rick-morty-chars_22
+  - first:
+      213: -4532959319777231190
+    second: rick-morty-chars_23
+  - first:
+      213: 7592985285327813057
+    second: rick-morty-chars_24
+  - first:
+      213: -4930894288409584265
+    second: rick-morty-chars_25
+  - first:
+      213: 8470917798851149395
+    second: rick-morty-chars_26
+  - first:
+      213: 7956912475673523031
+    second: rick-morty-chars_27
+  - first:
+      213: -5041401058599103587
+    second: rick-morty-chars_28
+  - first:
+      213: -3665263718048858778
+    second: rick-morty-chars_29
+  - first:
+      213: -5802069220407270457
+    second: rick-morty-chars_30
+  - first:
+      213: -3315054286172775695
+    second: rick-morty-chars_31
+  - first:
+      213: -6102811031653183525
+    second: rick-morty-chars_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rick-morty-chars_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 785
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e0c69faddc10c90800000000000000
+      internalID: -7205251588444910073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 785
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1865e15d13aa25cc0800000000000000
+      internalID: -3723726810876324223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 785
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81c4730b44d1b80800000000000000
+      internalID: -8422500204480292671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 785
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87c641f594b01320800000000000000
+      internalID: 2526717947045922702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 673
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e20b1ae5b1d34d20800000000000000
+      internalID: 3261681134393295590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 672
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842ad503b03a3b60800000000000000
+      internalID: 7726541656162968710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 673
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478cb4690441512f0800000000000000
+      internalID: -1002873074388055948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 673
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bdf8c11b3c4c780800000000000000
+      internalID: -8663584617698174205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 560
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92affd63ae65fcc60800000000000000
+      internalID: 7840581040218307113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 560
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99b1e307acbf7660800000000000000
+      internalID: 7385829339421587868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 560
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbe650df559340b0800000000000000
+      internalID: -5745584460844831804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 560
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636277153cda5370800000000000000
+      internalID: 8312198182850421609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 449
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765dc624cace73750800000000000000
+      internalID: 6284752029611775335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 455
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e0852f7a897740800000000000000
+      internalID: 5150299927569557196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 448
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e4eb2d7dbe832c0800000000000000
+      internalID: -4451548919469552105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_15
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 451
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2de82f81a8c4bc0800000000000000
+      internalID: -3797508546026876228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 336
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d19bf7ba1f5c90800000000000000
+      internalID: -7178989903503304726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 336
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb39b641d7e0024f0800000000000000
+      internalID: -855667998824098882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 336
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778931b4481d9310800000000000000
+      internalID: 1413312541374383994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 336
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77ba9c357b225570800000000000000
+      internalID: 8453867233055782780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 224
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c587012c3d8337b0800000000000000
+      internalID: -5245693851564800574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 224
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df5f70e0043b5780800000000000000
+      internalID: -8693297477337522223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 224
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83adb4d4c19a3feb0800000000000000
+      internalID: -4687216848141559240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 224
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb16be381b711c0800000000000000
+      internalID: -4532959319777231190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 112
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c97bbc33e3bf5960800000000000000
+      internalID: 7592985285327813057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 112
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d185a05c1f19bb0800000000000000
+      internalID: -4930894288409584265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 112
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e7e027bdebe8570800000000000000
+      internalID: 8470917798851149395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_27
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 112
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f4653db1ac6e60800000000000000
+      internalID: 7956912475673523031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d931ceb9278590ab0800000000000000
+      internalID: -5041401058599103587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df19d511e522dc0800000000000000
+      internalID: -3665263718048858778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3a563e8c8ea7fa0800000000000000
+      internalID: -5802069220407270457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa198dc0bf8ef1d0800000000000000
+      internalID: -3315054286172775695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rick-morty-chars_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 66
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf0af663b57e4ba0800000000000000
+      internalID: -6102811031653183525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
