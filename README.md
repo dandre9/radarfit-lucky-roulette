@@ -20,7 +20,7 @@ Tabela de conteúdos
 ## 💻 Sobre o projeto
 
 Roleta Rick & Morty foi desenvolvida utilizando Unity 3D e é uma roleta com 12 opções de prêmio, 
-onde cada prêmio é um personagem do desenho que é exibido em destaque ao ser sorteado dando a opção de jogar a roleta novamente.
+onde cada prêmio é um personagem do desenho que é exibido em destaque ao ser sorteado dando a opção de girar a roleta novamente
 
 ---
 
