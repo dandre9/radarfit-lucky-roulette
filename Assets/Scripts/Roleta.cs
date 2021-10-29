@@ -10,6 +10,7 @@ public class Roleta : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoBotaoParar;
     [SerializeField] Image premio;
     [SerializeField] GameObject backgroundPremio;
+    [SerializeField] AudioSource caixaDeMusica;
     [SerializeField] Sprite[] premios;
 
     int fatorDeAceleracao = 500;
@@ -52,6 +53,7 @@ public class Roleta : MonoBehaviour
     public void GirarRoleta()
     {
         girar = true;
+        caixaDeMusica.enabled = true;
 
         StartCoroutine(HabilitarBotaoDeParar());
     }
@@ -85,6 +87,8 @@ public class Roleta : MonoBehaviour
     void MostrarPremio()
     {
         string premioSorteado = FindObjectOfType<Seta>().PegarPremio();
+
+        caixaDeMusica.enabled = false;
 
         switch (premioSorteado)
         {
