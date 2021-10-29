@@ -5,7 +5,9 @@ using TMPro;
 
 public class Roleta : MonoBehaviour
 {
-    [SerializeField] float velocidadeMaxima = 360f;
+    [SerializeField] float velocidadeMaxima = 360f; // Define a velocidade final da roleta (graus por segundo) 
+    [SerializeField] int fatorDeAceleracao = 500; // Fator arbitrário que define em quanto a roleta ira acelerar
+    [SerializeField] float offSet = 100f; // Variável usada para variar a desaceleração da roleta
     [SerializeField] Button botaoParar;
     [SerializeField] TextMeshProUGUI textoBotaoParar;
     [SerializeField] Image premio;
@@ -13,13 +15,12 @@ public class Roleta : MonoBehaviour
     [SerializeField] AudioSource caixaDeMusica;
     [SerializeField] Sprite[] premios;
 
-    int fatorDeAceleracao = 500;
-    float offSet = 100f;
-    float grausParaGirar = 0;
-    bool girar = false;
+    float grausParaGirar = 0; // Variável que recebe a variação de aceleração e desaceleração
+    bool girar = false; // Variável usada como flag para girar ou parar a roleta no Update()
 
     private void Start()
     {
+        // Invoca de início a função que faz girar a roleta
         GirarRoleta();
     }
 
@@ -27,20 +28,23 @@ public class Roleta : MonoBehaviour
     {
         if (girar)
         {
+            // Incrementa a variável de aceleração até a velocidade máxima
             grausParaGirar = grausParaGirar >= velocidadeMaxima ? velocidadeMaxima : grausParaGirar + (fatorDeAceleracao * Time.deltaTime);
-            MecanicaRoleta();
+            MotorRoleta();
         }
-        else if (grausParaGirar != 0)
+        // Caso a variável girar for false e grausParaGirar for maior que 0, é para frear a roleta
+        else if (grausParaGirar > 0)
         {
             grausParaGirar = grausParaGirar - (offSet * Time.deltaTime);
 
             if (grausParaGirar <= 0)
             {
+                // Garante que aceleração final é 0
                 grausParaGirar = 0;
                 MostrarPremio();
             }
 
-            MecanicaRoleta();
+            MotorRoleta();
         }
     }
 
@@ -55,20 +59,21 @@ public class Roleta : MonoBehaviour
         girar = true;
         caixaDeMusica.enabled = true;
 
-        StartCoroutine(HabilitarBotaoDeParar());
+        StartCoroutine(DesabilitarHabilitarBotaoDeParar());
     }
 
     public void PararRoleta()
     {
+        // Gera valor aleatorio para variar a desaceleração da roleta garantindo aleatoriedade
         float variacaoDeParada = Random.Range(50, 151);
 
-        offSet = 100f * (variacaoDeParada / 100);
+        offSet = variacaoDeParada;
         girar = false;
         botaoParar.interactable = false;
 
     }
 
-    IEnumerator HabilitarBotaoDeParar()
+    IEnumerator DesabilitarHabilitarBotaoDeParar()
     {
         textoBotaoParar.text = "AGUARDE...";
         botaoParar.interactable = false;
@@ -79,17 +84,19 @@ public class Roleta : MonoBehaviour
         botaoParar.interactable = true;
     }
 
-    void MecanicaRoleta()
+    void MotorRoleta()
     {
         transform.Rotate(0, 0, grausParaGirar * Time.deltaTime);
     }
 
     void MostrarPremio()
     {
+        // Pega da classe Seta o prêmio sorteado
         string premioSorteado = FindObjectOfType<Seta>().PegarPremio();
 
         caixaDeMusica.enabled = false;
 
+        // Atribui à Image de premiação o sprite do prêmio sorteado
         switch (premioSorteado)
         {
             case "Collider01":
