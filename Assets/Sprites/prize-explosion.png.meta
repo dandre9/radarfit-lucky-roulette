@@ -51,7 +51,7 @@ TextureImporter:
       213: 7512496600946877786
     second: BOOST-EXPLOSION-SPRITE-PS-MININANO_15
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,6 +111,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -162,6 +164,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -520,6 +534,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_0: -5500434860895624355
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_1: -2310298502546348184
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_10: 7551588362074922194
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_11: 851660921608219727
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_12: -4917115014606859298
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_13: 3130981465489800540
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_14: 7738790473899206504
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_15: 7512496600946877786
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_2: -5979330624479487684
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_3: 5575430208504468659
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_4: 3242314905562644671
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_5: 4017770553631512185
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_6: -7329190708521869786
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_7: 8611037953191846627
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_8: -8394433681905735105
+      BOOST-EXPLOSION-SPRITE-PS-MININANO_9: -1701217130705401898
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

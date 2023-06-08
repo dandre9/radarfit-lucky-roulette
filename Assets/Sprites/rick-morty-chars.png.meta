@@ -102,7 +102,7 @@ TextureImporter:
       213: -6102811031653183525
     second: rick-morty-chars_32
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -123,6 +123,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -161,6 +162,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -200,6 +202,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -916,6 +930,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      rick-morty-chars_0: -7205251588444910073
+      rick-morty-chars_1: -3723726810876324223
+      rick-morty-chars_10: -5745584460844831804
+      rick-morty-chars_11: 8312198182850421609
+      rick-morty-chars_12: 6284752029611775335
+      rick-morty-chars_13: 5150299927569557196
+      rick-morty-chars_14: -4451548919469552105
+      rick-morty-chars_15: -3797508546026876228
+      rick-morty-chars_16: -7178989903503304726
+      rick-morty-chars_17: -855667998824098882
+      rick-morty-chars_18: 1413312541374383994
+      rick-morty-chars_19: 8453867233055782780
+      rick-morty-chars_2: -8422500204480292671
+      rick-morty-chars_20: -5245693851564800574
+      rick-morty-chars_21: -8693297477337522223
+      rick-morty-chars_22: -4687216848141559240
+      rick-morty-chars_23: -4532959319777231190
+      rick-morty-chars_24: 7592985285327813057
+      rick-morty-chars_25: -4930894288409584265
+      rick-morty-chars_26: 8470917798851149395
+      rick-morty-chars_27: 7956912475673523031
+      rick-morty-chars_28: -5041401058599103587
+      rick-morty-chars_29: -3665263718048858778
+      rick-morty-chars_3: 2526717947045922702
+      rick-morty-chars_30: -5802069220407270457
+      rick-morty-chars_31: -3315054286172775695
+      rick-morty-chars_32: -6102811031653183525
+      rick-morty-chars_4: 3261681134393295590
+      rick-morty-chars_5: 7726541656162968710
+      rick-morty-chars_6: -1002873074388055948
+      rick-morty-chars_7: -8663584617698174205
+      rick-morty-chars_8: 7840581040218307113
+      rick-morty-chars_9: 7385829339421587868
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
